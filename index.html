@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <title>Instagram 2.0</title>
+
+    
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-wrapper">
+            <img src="img/logo.PNG" alt="" class="logo-img">
+            <input type="text" placeholder="search" class="search-box">
+            <div class="nav-items">
+               <img src="img/home.PNG" alt="" class="icon">
+               <img src="img/messenger.PNG" alt="" class="icon">
+               <img src="img/add.PNG" alt="" class="icon">
+               <img src="img/explore.PNG" alt="" class="icon">
+
+               <div class="icon user-profile"></div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="main">
+        <div class="wrapper">
+            <div class="left-col">
+                <div class="status-wrapper">
+                    <div class="status-card">
+                        <div class="profile-pic"> <img src="img/cover 1.png" alt=""></div>
+                        <p class="username">user_name_1</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"> <img src="img/cover 2.png" alt=""></div>
+                        <p class="username">user_name_2</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"> <img src="img/cover 3.png" alt=""></div>
+                        <p class="username">user_name_3</p>
+                    </div>    
+                    <div class="status-card">
+                        <div class="profile-pic"> <img src="img/cover 4.png" alt=""></div>
+                        <p class="username">user_name_4</p>
+                    </div>    
+                    <div class="status-card">
+                        <div class="profile-pic"> <img src="img/cover 5.png" alt=""></div>
+                        <p class="username">user_name_5</p>
+                    </div>    
+                    <div class="status-card">
+                        <div class="profile-pic"> <img src="img/cover 6.png" alt=""></div>
+                        <p class="username">user_name_6</p>
+                    </div>    
+                    <div class="status-card">
+                        <div class="profile-pic"> <img src="img/cover 7.png" alt=""></div>
+                        <p class="username">user_name_7</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"> <img src="img/cover 8.png" alt=""></div>
+                        <p class="username">user_name_8</p>
+                    </div>            
+                </div>
+
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="img/cover 1.png" alt=""></div>
+                            <p class="username">vendruco_mv</p>
+                        </div>
+                        <img src="img/option.PNG" alt="" class="options">
+                    </div>
+                    <img src="img/cover 1.png" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG" class="icon" alt="" id="like1" onclick="changeImage()">
+                            <img src="img/comment.PNG" class="icon" alt="">
+                            <img src="img/send.PNG" class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="" id="save1" onclick="changeSave()">
+                        </div>
+                        <p class="likes1" id="likes1">100 likes</p> 
+                        <p class="description"><span> username</span> blablablablablalblalbalbalbalblablabl</p>
+                        <p class="post-time">1 hour ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" alt="" class="icon">
+                        <input type="text" placeholder="Add a comment..." class="comment-box" id="comment-box">
+                        <button id="post" class="comment-btn">Post</button>
+                
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="img/cover 2.png" alt=""></div>
+                            <p class="username">modern_web_channel</p>
+                        </div>
+                        <img src="img/option.PNG" alt="" class="options">
+                    </div>
+                    <img src="img/cover 2.png" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG" class="icon" alt="" id="like2" onclick="changeImage2()">
+                            <img src="img/comment.PNG" class="icon" alt="">
+                            <img src="img/send.PNG" class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="" id="save2" onclick="changeSave2()">
+                        </div>
+                        <p class="likes2" id="likes2">297 likes</p>
+                        <p class="description"><span> username</span> blablablablablalblalbalbalbalblablabl</p>
+                        <p class="post-time">1 hour ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" alt="" class="icon">
+                        <input type="text" placeholder="Add a comment..." class="comment-box">
+                        <button class="comment-btn">Post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="img/cover 3.png" alt=""></div>
+                            <p class="username">modern_web_channel</p>
+                        </div>
+                        <img src="img/option.PNG" alt="" class="options">
+                    </div>
+                    <img src="img/cover 3.png" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG" class="icon" alt="" id="like3" onclick="changeImage3()">
+                            <img src="img/comment.PNG" class="icon" alt="">
+                            <img src="img/send.PNG" class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="" id="save3" onclick="changeSave3()">
+                        </div>
+                        <p class="likes3" id="likes3">404 likes</p>
+                        <p class="description"><span> username</span> blablablablablalblalbalbalbalblablabl</p>
+                        <p class="post-time">1 hour ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" alt="" class="icon">
+                        <input type="text" placeholder="Add a comment..." class="comment-box">
+                        <button class="comment-btn">Post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="img/cover 4.png" alt=""></div>
+                            <p class="username">modern_web_channel</p>
+                        </div>
+                        <img src="img/option.PNG" alt="" class="options">
+                    </div>
+                    <img src="img/cover 4.png" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG" class="icon" alt="" id="like4" onclick="changeImage4()">
+                            <img src="img/comment.PNG" class="icon" alt="">
+                            <img src="img/send.PNG" class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="" id="save4" onclick="changeSave4()">
+                        </div>
+                        <p class="likes4" id="likes4">364 likes</p>
+                        <p class="description"><span> username</span> blablablablablalblalbalbalbalblablabl</p>
+                        <p class="post-time">1 hour ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" alt="" class="icon">
+                        <input type="text" placeholder="Add a comment..." class="comment-box">
+                        <button class="comment-btn">Post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="img/cover 5.png" alt=""></div>
+                            <p class="username">modern_web_channel</p>
+                        </div>
+                        <img src="img/option.PNG" alt="" class="options">
+                    </div>
+                    <img src="img/cover 5.png" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG" class="icon" alt="" id="like5" onclick="changeImage5()">
+                            <img src="img/comment.PNG" class="icon" alt="">
+                            <img src="img/send.PNG" class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="" id="save5" onclick="changeSave5()">
+                        </div>
+                        <p class="likes5" id="likes5">967 likes</p>
+                        <p class="description"><span> username</span> blablablablablalblalbalbalbalblablabl</p>
+                        <p class="post-time">1 hour ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" alt="" class="icon">
+                        <input type="text" placeholder="Add a comment..." class="comment-box">
+                        <button class="comment-btn">Post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="img/cover 6.png" alt=""></div>
+                            <p class="username">modern_web_channel</p>
+                        </div>
+                        <img src="img/option.PNG" alt="" class="options">
+                    </div>
+                    <img src="img/cover 6.png" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG" class="icon" alt="" id="like6" onclick="changeImage6()">
+                            <img src="img/comment.PNG" class="icon" alt="">
+                            <img src="img/send.PNG" class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="" id="save6" onclick="changeSave6()">
+                        </div>
+                        <p class="likes6" id="likes6">732 likes</p>
+                        <p class="description"><span> username</span> blablablablablalblalbalbalbalblablabl</p>
+                        <p class="post-time">1 hour ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" alt="" class="icon">
+                        <input type="text" placeholder="Add a comment..." class="comment-box">
+                        <button class="comment-btn">Post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="img/cover 7.png" alt=""></div>
+                            <p class="username">modern_web_channel</p>
+                        </div>
+                        <img src="img/option.PNG" alt="" class="options">
+                    </div>
+                    <img src="img/cover 7.png" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG" class="icon" alt="" id="like7" onclick="changeImage7()">
+                            <img src="img/comment.PNG" class="icon" alt="">
+                            <img src="img/send.PNG" class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="" id="save7" onclick="changeSave7()">
+                        </div>
+                        <p class="likes7" id="likes7">1001 likes</p>
+                        <p class="description"><span> username</span> blablablablablalblalbalbalbalblablabl</p>
+                        <p class="post-time">1 hour ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" alt="" class="icon">
+                        <input type="text" placeholder="Add a comment..." class="comment-box">
+                        <button class="comment-btn">Post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="img/cover 8.png" alt=""></div>
+                            <p class="username">modern_web_channel</p>
+                        </div>
+                        <img src="img/option.PNG" alt="" class="options">
+                    </div>
+                    <img src="img/cover 8.png" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="img/like.PNG" class="icon" alt="" id="like8" onclick="changeImage8()">
+                            <img src="img/comment.PNG" class="icon" alt="">
+                            <img src="img/send.PNG" class="icon" alt="">
+                            <img src="img/save.PNG" class="save icon" alt="" id="save8" onclick="changeSave8()">
+                        </div>
+                        <p class="likes8" id="likes8">1314 likes</p>
+                        <p class="description"><span> username</span> blablablablablalblalbalbalbalblablabl</p>
+                        <p class="post-time">1 hour ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="img/smile.PNG" alt="" class="icon">
+                        <input type="text" placeholder="Add a comment..." class="comment-box">
+                        <button class="comment-btn">Post</button>
+                    </div>
+                </div>
+            </div>
+            <div class="right-col">
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="img/mv.png" alt="">
+                    </div>
+                    <div>
+                        <p class="username">vendruco_mv</p>
+                        <p class="sub-text">Lucas Monteiro Vendruscolo</p>
+                    </div>
+                    <button class="action-btn">switch</button>
+                </div>
+                <p class="suggestion-text">Suggestions For You</p>
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="img/cover 9.png" alt="">
+                    </div>
+                    <div>
+                        <p class="username">user_name_1</p>
+                        <p class="sub-text">followed by user</p>
+                    </div>
+                    <button class="action-btn">follow</button>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="img/cover 10.png" alt="">
+                    </div>
+                    <div>
+                        <p class="username">user_name_2</p>
+                        <p class="sub-text">followed by user</p>
+                    </div>
+                    <button class="action-btn">follow</button>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="img/cover 11.png" alt="">
+                    </div>
+                    <div>
+                        <p class="username">user_name_3</p>
+                        <p class="sub-text">followed by user</p>
+                    </div>
+                    <button class="action-btn">follow</button>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="img/cover 12.png" alt="">
+                    </div>
+                    <div>
+                        <p class="username">user_name_3</p>
+                        <p class="sub-text">followed by user</p>
+                    </div>
+                    <button class="action-btn">follow</button>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="img/cover 13.png" alt="">
+                    </div>
+                    <div>
+                        <p class="username">user_name_4</p>
+                        <p class="sub-text">followed by user</p>
+                    </div>
+                    <button class="action-btn">follow</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    
+    
+
+</body>
+</html>
